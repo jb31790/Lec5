@@ -1,0 +1,32 @@
+:root {
+	--main-fg: #999;
+	--main-bg: #111;
+	font-size: 14px;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--main-bg);
+	color: var(--main-fg);
+	height: 65vh;
+	text-align: center;
+}
+
+h1 {
+	margin: 1em;
+}
+
+a {
+	font-size: 2em;
+	margin: 0.3em;
+	color: var(--main-fg);
+	text-decoration: none;
+	opacity: 0.6;
+}
+
+a:hover {
+	opacity: 1;
+}
