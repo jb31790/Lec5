@@ -5,11 +5,16 @@
 }
 
 body {
+	background-color: var(--main-bg);
+	margin: 0px;
+	height: 100vh;
+}
+
+main {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-color: var(--main-bg);
 	color: var(--main-fg);
 	height: 65vh;
 	text-align: center;
